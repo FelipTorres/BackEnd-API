@@ -9,6 +9,7 @@ public class Reserve {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
+    
     private String email;
 
     private Date date;
